@@ -1,70 +1,75 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    flex-direction: column;  
-    width: 800px;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: auto;
-    background-color: rgb(244, 248, 248);
-}
-.navButton{
-    border: none;
-    background-color: transparent;
-    font-size: 20px;
-    opacity: 0.6;
-    cursor: pointer;
-}
-div>button.nav-open{
-    position: fixed;
-    left: 20px;
-    top: 20px;
-}
- 
-.nav{
-    height: 100vh;
-    position: fixed;
-    left:0;
-    top: 0;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-out;
-    
-    
-}
-.visible{
-    transform: translateX(0);
-    transition: transform 0.1s ease-in;
-    
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: auto;
+  background-color: rgb(244, 248, 248);
 }
 
-.nav-close{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-}
- .nav-black{
-    background-color: rgb(255, 254, 254);
-    width: 20%;
- 
+.navButton {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  opacity: 0.6;
+  cursor: pointer;
 }
 
-ul>li{
-    list-style: none;
-    padding: 10px 0;
-    font-size: 20px;
-}
-ul>li+li{
-    padding-left: 10px ;
-}
-ul>li+li+li{
-    padding-left:20px ;
+div > button.nav-open {
+  position: fixed;
+  left: 20px;
+  top: 20px;
 }
 
-a{
-    text-decoration: none;
-    color: rgb(7, 6, 6);
+.nav {
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.visible {
+  transform: translateX(0);
+  transition: transform 0.1s ease-in;
+}
+
+.nav-close {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+.nav-black {
+  background-color: rgb(255, 254, 254);
+  width: 50%;
+}
+
+.class-list {
+  margin-top: 70px;
+}
+
+ul > li {
+  list-style: none;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+ul > li + li {
+  padding-left: 10px;
+}
+
+ul > li + li + li {
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(7, 6, 6);
 }
