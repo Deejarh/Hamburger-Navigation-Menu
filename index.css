@@ -75,8 +75,10 @@ a {
   color: rgb(7, 6, 6);
 }
 .content{
-    width: 600px;
+    width: 80%;
     margin:  auto;
     padding: 40px;
+    font-size: 1.2em;
+    line-height: 40px;
 
 }
