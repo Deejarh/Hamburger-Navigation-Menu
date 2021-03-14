@@ -7,8 +7,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   margin: auto;
+  padding: 5px;
   background-color: rgb(244, 248, 248);
 }
 
@@ -33,11 +33,12 @@ div > button.nav-open {
   top: 0;
   transform: translateX(-100%);
   transition: transform 0.3s ease-out;
+  min-width: 250px;
 }
 
 .visible {
   transform: translateX(0);
-  transition: transform 0.1s ease-in;
+  transition: transform 0.2s ease-in;
 }
 
 .nav-close {
@@ -48,7 +49,7 @@ div > button.nav-open {
 
 .nav-black {
   background-color: rgb(255, 254, 254);
-  width: 50%;
+  
 }
 
 .class-list {
@@ -72,4 +73,10 @@ ul > li + li + li {
 a {
   text-decoration: none;
   color: rgb(7, 6, 6);
+}
+.content{
+    width: 600px;
+    margin:  auto;
+    padding: 40px;
+
 }
